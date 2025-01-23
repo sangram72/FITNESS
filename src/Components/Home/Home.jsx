@@ -10,7 +10,7 @@ function Home() {
 
   // Fetch data from the API
   useEffect(() => {
-    fetch('http://localhost:3000/api/data')
+    fetch('https://backend-for-fitness-app.vercel.app/api/data')
       .then(response => response.json())
       .then(datas => {
         setData(datas); // Set all food data
