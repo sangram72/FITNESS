@@ -86,7 +86,7 @@ function Home() {
                 <div key={index} className="food-card">
                   <h3>{item.name}</h3>
                   <p><strong>Cuisine:</strong> {item.cuisine}</p>
-                  <p><strong>calories:</strong> {item.calories}</p>
+                  <p><strong>calories:</strong> {item.calories} kcal</p>
                   <p><strong>Category:</strong> {item.category}</p>
                 </div>
               ))}
