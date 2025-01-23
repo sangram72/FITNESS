@@ -33,7 +33,7 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h1 className="title">Food Selection</h1>
+      <h1 className="title">Fitness Dietary </h1>
       <div className="filters">
         {/* Dietary Choice Dropdown */}
         <div className="dropdown">
